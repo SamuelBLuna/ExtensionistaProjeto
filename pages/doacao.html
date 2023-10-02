@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doações</title>    
+    <script src="..//js/doacao.js" defer></script>
+    <link rel="stylesheet" href="..//css/doacoes.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="..//index.html">Home</a></li>
+                <li><a href="pages/doacao.html">Doaçoes</a></li>
+                <li><a href="estoque.html">Itens Disponiveis</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="doacoes">
+            <div>
+                <h2>Fazer Doação</h2>
+            </div>
+            <form>
+                <fieldset>
+                    <legend>Dados do Aluno</legend>
+                    <ul>
+                        <li>
+                            <label for="nomeAluno">Nome</label>
+                            <input type="text" name="nomeAluno" id="nomeAluno">
+                        </li>
+                        <li>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </li>
+                        <li>
+                            <label for="idade">Idade</label>
+                            <input type="number" name="idade" id="idade">
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>Doação</legend>
+                    <ul>
+                        <li>
+                            <label for="item">Item</label>
+                            <input type="text" name="item" id="item">
+                        </li>
+                    </ul>
+                </fieldset>
+                <button id="fazDoacao">Enviar</button>
+            </form>
+        </section>
+        <section class="pedidos">
+            <div><h2>Fazer Pedido</h2></div>
+            <form>
+                <fieldset>
+                    <legend>Dados da Pessoais</legend>
+                    <ul>
+                        <li>
+                            <label for="nome2">Nome</label>
+                            <input type="text" name="nome2" id="nome2">
+                        </li>
+                        <li>
+                            <label for="ender">Endereço</label>
+                            <input type="text" name="ender" id="ender">
+                        </li>
+                        <li>
+                            <label for="ref">Referencia</label>
+                            <input type="text" name="ref" id="ref" placeholder="Ponto de Referencia">
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>Pedido</legend>
+                    <ul>
+                        <li>
+                            <label for="pedido">Item</label>
+                            <input type="text" name="pedido" id="pedido">
+                        </li>
+                    </ul>
+                </fieldset>
+                <button id="fazPedido">Enviar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
