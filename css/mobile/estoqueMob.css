@@ -1,0 +1,21 @@
+@media (max-width: 900px) {
+    .geral {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .itens {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 120px;
+        max-height: 160px;
+        gap: 10px;
+    }
+
+    .text {
+        font-size: 35px;
+    }
+      
+}

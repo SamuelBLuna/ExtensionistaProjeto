@@ -1,4 +1,5 @@
 @import url(Global.css);
+@import url(mobile/homeMob.css);
 
 /* Main */
 main {
@@ -34,18 +35,21 @@ section div {
     font-size: 28px;
     border-radius: 15px;
 }
-.textOne {
-    margin-top: 80px;
-}
-.textTwo {
-    position: absolute;
-    right: 80px;
-    top: 50%;
-    bottom: 50%;
-}
-.textTree {
+
+@media (min-width: 900px) {  
+    .textOne {
+        margin-top: 80px;
+    }
+    .textTwo {
+        position: absolute;
+        right: 80px;
+        top: 50%;
+        bottom: 50%;
+    }
+    .textTree {
     position: absolute;
     left: 80px;
     top: 50%;
     bottom: 50%;
+}
 }

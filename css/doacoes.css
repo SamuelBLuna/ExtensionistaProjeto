@@ -1,12 +1,11 @@
 @import url(Global.css);
+@import url(mobile/doacoesMob.css);
 
 main {
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
-    height: 100vh;
     gap: 40px;
 }
 
@@ -15,7 +14,7 @@ main section {
     text-align: center;
     padding: 10px 5px;
     height: 75%;
-    width: 25%;
+    width: 400px;
     border-radius: 20px;
 }
 
@@ -80,4 +79,10 @@ button:hover {
     color: rgb(35, 214, 238);
     font-weight: bolder;
     background-color: rgb(87, 86, 86);
+}
+
+@media (min-width: 901px) {
+    main {
+        height: 100vh;
+    }
 }

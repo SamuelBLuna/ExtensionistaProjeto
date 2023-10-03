@@ -1,0 +1,30 @@
+@media (max-width: 900px) {
+
+    main {
+        padding-top: 73px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main section {
+        max-width: 360px;
+
+    }
+    
+    form {
+        height: 100%;
+    }
+    fieldset {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 150px;
+
+    }
+    
+    main ul {
+        padding-bottom: 20px;
+    }
+}

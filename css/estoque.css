@@ -1,4 +1,5 @@
 @import url(Global.css);
+@import url(mobile/estoqueMob.css);
 
 body {
     background-color: black;
@@ -21,9 +22,8 @@ main {
     position: relative;
     background-color: aliceblue;
     border-radius: 15px;
-    display: grid;
+    
     padding: 30px 0;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
     width: 70%;
 }
@@ -38,7 +38,6 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 50px;
     border-radius: 20px;
     margin: 0 auto;
     width: 275px;
@@ -54,35 +53,16 @@ main {
 }
 
 .text {
-    font-size: 35px;
+    font-size: 110%;
     font-weight: bold;
 }
 
-.botoes {
-    display: flex;
-    gap: 50px;
-}
-.botoes button {
-    font-size: 25px;
-    padding: 7px 15px;
-    border-radius: 15px;
-    font-weight: bolder;
-}
-
-
-button:hover {
-    cursor: pointer;
-    color: rgb(35, 214, 238);
-    font-weight: bolder;
-    background-color: rgb(87, 86, 86);
-    border: 2px solid rgb(160, 34, 171);
-}
 .disponivel ul {
     text-align: center;
 }
 
 .nomePedido {
-    font-size: 22px;
+    font-size: 105%;
     border-bottom: 1px solid black;
 }
 
@@ -93,4 +73,12 @@ button:hover {
     border-radius: 15px;
     padding: 5px;
     top: -45px;
+}
+
+@media (min-width: 900px) {
+    .itens {
+        display: grid;
+        gap: 50px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }        
 }
