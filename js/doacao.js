@@ -8,8 +8,7 @@ let doacaoFeita = []
 let pedidoFeito = []
 let disponivel = []
 
-function fazerDoacao(e) {
-    e.preventDefault()
+function fazerDoacao() {
     if(localStorage.minhasDoacoes) {
         doacaoFeita = JSON.parse(localStorage.getItem('minhasDoacoes'))
     }
@@ -21,8 +20,8 @@ function fazerDoacao(e) {
     localStorage.minhasDoacoes = JSON.stringify(doacaoFeita)      
     comparacao()
 }
-function fazerPedido(e) {
-    e.preventDefault()
+
+function fazerPedido() {
     if(localStorage.meusPedidos) {
         pedidoFeito = JSON.parse(localStorage.getItem('meusPedidos'))
     }

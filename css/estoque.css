@@ -75,10 +75,10 @@ main {
     top: -45px;
 }
 
-@media (min-width: 900px) {
-    .itens {
+@media (min-width: 1341px) {
+    .geral {
         display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 50px;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
     }        
 }
