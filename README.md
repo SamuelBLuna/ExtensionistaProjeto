@@ -21,8 +21,8 @@ Identificar o foco de carência da região escolar para uma aplicação aprofund
 
 ## Como Usar
 
-*Projeto ainda em construção, no momento a forma de uso e bem simples e didatica, basta apenas digitar os dados em seu respequitvos campos que tudo ficará disponivel na janela de "Itens Disponiveis"*
-### [CLique aqui para acessar o projeto](https://samuelbluna.github.io/ExtensionistaProjeto/)
+*Projeto ainda em construção, no momento a forma de uso e bem simples, basta apenas digitar os dados em seu respequitivos campos apôs isso vá na janela de "Itens Disponiveis", lá estará todos os itens disponives e também mostrará se existe algo disponivel para doação*
+### [Clique aqui para acessar o projeto](https://samuelbluna.github.io/ExtensionistaProjeto/)
 
 
 ## Capturas de Tela
