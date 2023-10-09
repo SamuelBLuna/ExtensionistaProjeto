@@ -27,7 +27,7 @@ Identificar o foco de carência da região escolar para uma aplicação aprofund
 
 ## Capturas de Tela
 
-*Doaões e Pedidos*
+*Doações e Pedidos*
 <img src="/image/screenShot/01.png">
 
 *Versão Mobile*
