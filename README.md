@@ -37,8 +37,8 @@ Identificar o foco de carência da região escolar para uma aplicação aprofund
 *Versão Mobile*
 <img src="/image/screenShot/04.png">
 
-## Autor
+<!-- ## Autor
 
-*Samuel Barros Luna*
+*Samuel Barros Luna* -->
 
 
