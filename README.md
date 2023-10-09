@@ -1,4 +1,4 @@
-# Projeto Extencionista (Uninter)
+# Projeto Extensionista (Uninter)
 
 Implementar um site escolar para cadastro de recebimento e distribuição de doações utilizando as tecnologias HTML, CSS e JavaScript
 
